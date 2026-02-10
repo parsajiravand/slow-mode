@@ -1,0 +1,37 @@
+{
+  "name": "slow-mode",
+  "version": "0.1.0",
+  "description": "Intentional pace. Better focus.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "slow-mode": "bin/cli.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node bin/cli.js",
+    "run": "npm run start",
+    "test": "npm run build && node --test test/index.test.js"
+  },
+  "keywords": [
+    "slow-mode",
+    "focus",
+    "productivity",
+    "performance",
+    "cdp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  }
+}
