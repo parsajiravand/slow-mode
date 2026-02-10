@@ -50,6 +50,8 @@ npm start -- off          # disable
 
 **React example:** [examples/react-example/](examples/react-example/) — Vite + React app with a `useSlowMode` hook, enable/disable UI, and simulated UX issue reporting. Run: `npm run build` then `cd examples/react-example && npm install && npm run dev`.
 
+**How it helps:** [How Slow Mode improves your project and app](docs/HOW_IT_IMPROVES.md) — catch perf issues before users, test under device/network profiles, get actionable failure reasons, and improve real-world UX.
+
 ---
 
 ## Screenshots
