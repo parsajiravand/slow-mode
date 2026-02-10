@@ -48,6 +48,8 @@ npm start -- off          # disable
 
 **Try the sample app:** `npm run example` — runs [examples/run.js](examples/run.js) (enable, hooks, reportFailure, disable). See [examples/README.md](examples/README.md).
 
+**React example:** [examples/react-example/](examples/react-example/) — Vite + React app with a `useSlowMode` hook, enable/disable UI, and simulated UX issue reporting. Run: `npm run build` then `cd examples/react-example && npm install && npm run dev`.
+
 ---
 
 ## Screenshots

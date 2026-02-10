@@ -1,6 +1,17 @@
-# Sample app — using Slow Mode
+# Examples — using Slow Mode
 
-This folder shows how to use the Slow Mode API from a Node script.
+This folder has two ways to try Slow Mode:
+
+| Example | Description |
+|--------|-------------|
+| **[run.js](run.js)** | Node script: enable, hooks, reportFailure, disable. Run with `npm run example` from repo root. |
+| **[react-example/](react-example/)** | React (Vite) app: `useSlowMode` hook, enable/disable UI, simulate and report UX issues. See [react-example/README.md](react-example/README.md). |
+
+---
+
+## Node sample (run.js)
+
+How to use the Slow Mode API from a Node script.
 
 ## Run the sample
 
