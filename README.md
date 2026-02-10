@@ -46,6 +46,8 @@ npm start -- off          # disable
 
 **Use as a library:** see [How to use](docs/USAGE.md) for install, CLI, and API.
 
+**Try the sample app:** `npm run example` — runs [examples/run.js](examples/run.js) (enable, hooks, reportFailure, disable). See [examples/README.md](examples/README.md).
+
 ---
 
 ## Screenshots

@@ -16,7 +16,8 @@
     "build": "tsc",
     "start": "npm run build && node bin/cli.js",
     "run": "npm run start",
-    "test": "npm run build && node --test test/index.test.js"
+    "test": "npm run build && node --test test/index.test.js",
+    "example": "npm run build && node examples/run.js"
   },
   "keywords": [
     "slow-mode",
